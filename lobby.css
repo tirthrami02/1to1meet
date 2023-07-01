@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(112, 186, 104);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#form-container {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #262625;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+#form_container_header {
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #363739;
+    margin: 0;
+    line-height: 0;
+}
+
+input {
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 20px;
+    font-size: 15px;
+    background-color: #3f434a;
+    margin-top: 32px;
+}
+
+input [type='submit'] {
+    background-color: #845695;
+}
